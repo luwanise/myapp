@@ -8,6 +8,10 @@ const App = () => {
       <Button title="Go to Repo" onPress={() => Linking.openURL('https://github.com/luwanise/myapp')} />
       <Text>HNG Hire Pages</Text>
       <Button title="HNG Hire Pages" onPress={() => Linking.openURL('https://hng.tech/hire/react-native-developers')} />
+      <Text>Telex</Text>
+      <Button title="Telex" onPress={() => Linking.openURL('https://telex.ng/')} />
+      <Text>Delve</Text>
+      <Button title="Delve" onPress={() => Linking.openURL('https://delve.fun/')} />
     </View>
   );
 };
